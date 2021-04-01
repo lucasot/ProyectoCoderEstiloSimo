@@ -1,0 +1,76 @@
+/*ABOUT US*/
+.aboutus {
+  background-color: #f5cf9e;
+}
+
+/*IMAGEN SIMO */
+#SobreNosotros .simonaprincess {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  border-style: solid;
+  height: 100%;
+  transition: all 2s;
+}
+
+.simonaprincess:hover {
+  transform: scale(0.8);
+}
+
+/*CONTACT US*/
+form {
+  /* background-color: rgb(255, 140, 98); */
+  /* background-color: #f4f1bb; */
+  background-color: #f5cf9e;
+  height: auto;
+}
+
+.formulario input[type=text],
+.formulario input[type=email],
+.formulario input[type=tel] {
+  width: 60%;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 7px;
+  border: 3px solid #d6d9dc;
+}
+
+.formulario input[type=text]:invalid,
+.formulario input[type=email]:invalid,
+.formulario input[type=tel]:invalid {
+  border: 2px solid red;
+}
+
+.formulario textarea {
+  resize: none;
+  min-height: 100px;
+  width: 60%;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 7px;
+  border: 3px solid #d6d9dc;
+}
+
+/* .formulario legend{
+    text-decoration: wavy;
+} */
+.boton {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  align-content: end;
+}
+
+/*GALLERY*/
+.Galeria {
+  background-color: #f5cf9e;
+}
+
+/*PRODUCTS*/
+.fondocolor {
+  background-color: #f5cf9e;
+}
+
+/*FOOTER*/
+
+/*# sourceMappingURL=style.css.map */

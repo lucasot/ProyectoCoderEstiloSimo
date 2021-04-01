@@ -1,0 +1,649 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+@font-face{
+    font-family: 'Rubik', sans-serif;
+    src: url(Rubik-Italic-VariableFont_wght.ttf)format('woff');
+    font-family: 'RubikMono', sans-serif;
+    src: url(RubikMonoOne-Regular.ttf)format('woff');
+}
+
+body {
+    background-color: #f4f1bb;
+    
+}
+.cabeza {
+    background-color: #eaf2e3;    
+}
+header img {  
+    width: 600px;
+    height: auto;
+    margin: 50px;
+    border-radius: 50%;
+    padding: 0px;
+    border: 14px solid white;
+}
+.menu{
+    background-color: #eaf2e3;
+}
+nav {
+    /* margin-left: 3%; */
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: rubik;
+    /* font-style:italic; */
+    background-color: #eaf2e3;
+    color: white;
+    letter-spacing:1px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration: none;
+    text-indent: 10px;
+    
+    word-spacing: 2px;
+    padding-bottom: 50px;
+}
+nav a{
+    font-size: 50px;
+    font-weight:normal;
+    font-style:rubik;
+    color: black;
+    letter-spacing:2px;
+    line-height: 90px;
+    text-align: right;
+    text-decoration: none;
+    text-indent: 5px;
+    text-transform:uppercase;
+    word-spacing: 11px;
+    border: 2px outset white;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.titulos{
+    font-size: 70px;
+    font-weight: bolder;
+    font-style: RubikMono;
+    color: black;
+    letter-spacing:2px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: underline;
+    text-indent: 10px;
+    text-transform:uppercase;
+    word-spacing: 6px;
+    padding: 50px;
+    
+}
+.subtitulos{
+    font-style: RubikMono;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+    letter-spacing:2px;
+    line-height: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 10px;
+    text-transform:uppercase;
+    word-spacing: 6px;
+    padding: 50px;
+}
+
+#SobreNosotros .encabezado{
+    display: flex;
+    align-content: flex-start;
+    font-size: 70px;
+    font-weight: bolder;
+    font-style:Rubik;
+    color: black;
+    letter-spacing:2px;
+    line-height: 20px;
+    text-align:start;
+    text-decoration: underline;
+    text-indent: 10px;
+    text-transform:uppercase;
+    word-spacing: 6px;
+    padding: 60px;
+}
+
+                                                            /*---------------------------SOBRE NOSOTROS---------------------------*/
+
+#SobreNosotros #parrafo-1 {
+                                    /* DISPLAY DEL TEXTO */
+    
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row-reverse;
+    background-color: #f5cf9e;
+    border: 5px solid white;
+    /* border-radius: 350px; */
+
+                                    /* TIPOGRAFIA DEL TEXTO */
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: Rubik;
+    color:white;
+    letter-spacing: 1px;
+    line-height: 80px;
+    text-align:center;
+    text-decoration:none;
+    text-indent: 4px;
+    text-transform: initial;
+    word-spacing: 1px ;
+    padding: 50px;
+}
+                                    /*IMAGEN SIMO */
+#SobreNosotros .simonaprincess {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 1px; */
+    border-style: solid;
+    height: 100%;
+    transition: all 1.5s;
+}
+.simonaprincess:hover{
+    transform: scale(1.2);
+}
+                                                        /*---------------------------NUESTROS PRODUCTOS---------------------------*/
+
+#NuestrosProductos .productos{
+ /*------------------------------ DYSPLAY --------------------------------*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+/*------------------------------ FONDO COLORES --------------------------------*/
+
+    background-color: #f5cf9e;
+    border: 5px solid white;
+    /* border: 1px solid white; */
+    /* background-size: 25px 50px; */
+    /* border-radius: 300px; */
+/*------------------------------ MARGENES Y MEDIDAS --------------------------------*/
+    /* width: 3000px; ancho
+    height: 600px; alto */
+    /* margin: 20px;
+    padding: 1px 1px 10px 1px; */
+    /* padding: 20px 10px 10px 20px; */
+}
+
+
+
+#NuestrosProductos .azusaimg{
+/*---------------------------IMAGENES DE NUESTROS PRODUCTOS---------------------------*/
+    
+    border-style: solid;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 8px 8px 16px 8px;
+    
+/*---------------------------TITULOS DE NUESTROS PRODUCTOS---------------------------*/
+    font-size: 30px;
+    font-style: Rubik;
+}
+#NuestrosProductos .jaipurimg {
+/*---------------------------IMAGENES DE NUESTROS PRODUCTOS---------------------------*/
+    border-style: solid;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 8px 8px 16px 8px;
+/*---------------------------TITULOS DE NUESTROS PRODUCTOS---------------------------*/
+    font-size: 30px;
+    font-style: Rubik;
+}
+#NuestrosProductos .carmeloimg {
+/*---------------------------IMAGENES DE NUESTROS PRODUCTOS---------------------------*/
+    border-style: solid;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 8px 8px 16px 8px;
+/*---------------------------TITULOS DE NUESTROS PRODUCTOS---------------------------*/   
+    font-size: 30px;
+    font-style: Rubik;
+
+}
+
+                                                            /*--------------------------------- GALERIA ----------------------------------*/
+
+h5 {
+    font-size: 25px;
+    font-weight: lighter;
+    font-style:Rubik;
+    color: black;
+    letter-spacing:1px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: underline double;
+    /* text-decoration-style:dashed / wavy decoracion de linea punteada wavy tipo ola;
+    text-decoration-color: black; */
+    text-indent: 10px;
+    text-transform:capitalize;
+    word-spacing: 1px;
+    padding: 10px
+}
+#Galeria .cuadros{
+ /*------------------------------ DYSPLAY --------------------------------*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items:flex-start; 
+
+/*------------------------------ COLORES --------------------------------*/
+    background-color: #f4f1bb;
+   
+}
+
+#Galeria .titulosgaleria{
+ /*------------------------------ DYSPLAY --------------------------------*/
+
+    /* display:flex;
+    align-items: flex-start;
+    flex-direction: row; */
+/*------------------------------ TIPOGRAFIA --------------------------------*/
+
+    font-size: 70px;
+    font-weight: bolder;
+    font-style:Rubik;
+    color: black;
+    letter-spacing:2px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: underline;
+    text-indent: 10px;
+    text-transform:uppercase;
+    word-spacing: 6px;
+    padding: 50px;
+}
+
+
+#Galeria .subtitulosgaleria{
+ /*------------------------------ DYSPLAY --------------------------------*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+
+/*------------------------------ TIPOGRAFIA --------------------------------*/
+
+    font-size: 40px;
+    font-weight: lighter;
+    font-style:Rubik;
+    color: black;
+    letter-spacing:2px;
+    line-height: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 10px;
+    text-transform:uppercase;
+    word-spacing: 6px;
+    padding: 50px;
+
+}    
+
+                                                            /*------------------------------ GALERIA WOOF --------------------------------*/
+#Galeria .woof {
+/*------------------------------ DYSPLAY --------------------------------*/
+
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-start;
+
+/*------------------------------ FONDO COLORES --------------------------------*/
+
+    background-color: #f5cf9e;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-size: 25px 50px;
+    
+/*------------------------------ MARGENES Y MEDIDAS --------------------------------*/
+    width: 1000px; /*ancho*/
+    height: 1400px; /*alto*/
+    margin: 20px;
+    padding: 1px 1px 10px 1px;
+    /* padding: 20px 10px 10px 20px; */ 
+}
+
+/*------------------------------ WOOF IMAGENES MARGENES Y MEDIDAS --------------------------------*/
+
+#Galeria .woof .simoimg{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 8px 8px 16px 8px;
+}
+#Galeria .woof .lukeimg {
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 8px 8px 16px 8px;
+}
+#Galeria .woof .cocoimg{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 8px 8px 16px 8px;
+}
+#Galeria .woof .teoimg {
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 8px 8px 16px 8px;
+} 
+
+                                                                /*------------------------------ GALERIA MEOW --------------------------------*/
+
+#Galeria .meow{
+/*------------------------------ DYSPLAY --------------------------------*/
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-direction: row;
+     flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-start;
+    
+       
+/*------------------------------ FONDO COLORES --------------------------------*/
+       
+    background-color: #f5cf9e;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-size: 25px 50px;
+           
+/*------------------------------ MARGENES --------------------------------*/
+    width: 1000px; /*ancho*/
+    height: 1400px; /*alto*/
+    margin: 20px;
+    padding: 1px 1px 10px 1px;
+    /* padding: 20px 10px 10px 20px; */         
+ }
+
+/*------------------------------ MEOW IMAGENES MARGENES Y MEDIDAS --------------------------------*/
+#Galeria .meow .manchitaimg{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 8px 8px 16px 8px;
+}
+#Galeria .meow .copoimg{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 8px 8px 16px 8px;
+}
+#Galeria .meow .memeimg{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 8px 8px 16px 8px;
+}
+#Galeria .meow .pelusaimg{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 8px 8px 16px 8px;
+}
+                                                            /*------------------------------ FORMULARIO CONSULTAS -----------------------------*/
+
+#Consultas {
+
+
+    padding: 20px;
+    background-color: #f4f1bb;
+}
+#Consultas .titulocuestionario {
+/*------------------------------ DYSPLAY --------------------------------*/
+
+display: flex;
+flex-flow: column wrap;
+align-content: center;
+
+
+/*------------------------------ TIPOGRAFIA --------------------------------*/
+
+font-size: 30px;
+font-weight: bolder;
+font-style:Rubik;
+color: black;
+letter-spacing:2px;
+line-height: 70px;
+text-align:center;
+text-decoration: underline;
+text-indent: 10px;
+text-transform:uppercase;
+word-spacing: 6px;
+padding: 50px;
+}
+/*------------------------------ CUESTIONARIO NOMBRE --------------------------------*/
+#Consultas .cuestionario-1{
+
+    display: flex;
+    justify-content:left;
+    align-content:flex-start;
+    flex-flow: column wrap;
+
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: Rubik;
+    color: black;
+    letter-spacing:2px;
+    line-height: 40px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 5px;
+    text-transform:uppercase;
+    word-spacing: 1px;
+    border: 2px outset white;
+    border-radius: 5px;
+    background-color: white;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+/*------------------------------ CUESTIONARIO MAIL --------------------------------*/
+
+#Consultas .mail{
+
+    display: flex;
+    justify-content:left;
+    align-content:flex-start;
+    flex-flow: column wrap;
+
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: Rubik;
+    color: black;
+    letter-spacing:2px;
+    line-height: 40px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 5px;
+    text-transform:uppercase;
+    word-spacing: 1px;
+    border: 2px outset white;
+    border-radius: 5px;
+    background-color: white;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+/*------------------------------ CUESTIONARIO TELEFONO --------------------------------*/
+
+#Consultas .telefono{
+
+    display: flex;
+    justify-content:left;
+    align-content:flex-start;
+    flex-flow: column wrap;
+
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: Rubik;
+    color: black;
+    letter-spacing:2px;
+    line-height: 40px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 5px;
+    text-transform:uppercase;
+    word-spacing: 1px;
+
+                                        /* CUADROOOOO */
+
+    border: 2px outset white;
+    border-radius: 5px;
+    background-color: white;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+/*------------------------------ CUESTIONARIO CONSULTA --------------------------------*/
+
+#Consultas .consul{
+
+    display: flex;
+    justify-content:left;
+    align-content:flex-start;
+    flex-flow: column wrap;
+
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: Rubik;
+    color: black;
+    letter-spacing:2px;
+    line-height: 40px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 5px;
+    text-transform:uppercase;
+    word-spacing: 1px;
+    border: 2px outset white;
+    border-radius: 5px;
+    background-color: white;
+    width: 1000px;
+    padding-bottom: 200px;
+}
+
+                                                            /*------------------------------ CONTACTO --------------------------------*/
+#Contacto .contactos{
+
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-flow: column wrap;
+
+
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: Rubik;
+    color:black;
+    letter-spacing: 1px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none ;
+    text-indent: 20px;
+    text-transform: none;
+    word-spacing: 1px;
+    padding: 20px;
+
+}
+#Contacto h2{
+    font-size: 70px;
+    font-weight: bolder;
+    font-style: Rubik;
+    color:black;
+    letter-spacing: 1px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: underline wavy ;
+    text-underline-position:below;
+    text-indent: 20px;
+    text-transform: none;
+    word-spacing: 1px;
+    padding: 20px;
+
+}
+#Contacto .redes{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    line-height: 350px;
+    transition: all 0.5s;
+}
+.redes:hover{
+    transform: scale(1.5);
+}
+
+
+/*------------------------------ PIE DE PAGINA --------------------------------*/
+footer {
+    padding: 30px;
+    font-size: 24px;
+    line-height: 60px;
+    font-weight: lighter;
+    font-style: Rubik;   
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color:transparent;
+    /* position: fixed;
+    bottom: 0;
+    right: 0; */
+}
+footer h2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-style: Rubik;
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+footer .wspfixed{
+    display: flex;
+    padding: 15px;
+    background-color:transparent;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transition: all 1s;
+}
+
+.wspfixed:hover{
+    transform: scale(1.5);
+}
+
+footer .logopie{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    
+}

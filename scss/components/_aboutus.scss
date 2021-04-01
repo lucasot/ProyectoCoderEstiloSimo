@@ -1,0 +1,19 @@
+                                        /*ABOUT US*/ 
+
+.aboutus{
+    background-color: #f5cf9e;
+}
+                                            /*IMAGEN SIMO */
+#SobreNosotros .simonaprincess {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    border-style: solid;
+    height: 100%;
+    transition: all 2s;
+}
+.simonaprincess:hover{
+    transform: scale(0.8);
+}
+
+
