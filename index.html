@@ -31,7 +31,7 @@
 <body>
   <header class="encabezado bg-secondary pt-4">
     <div class="container-fluid">
-      <a class="logosimo rounded-circle" href="index.html"><img src="Imagenes/SIMO.jpg" alt="logo SIMO" class="rounded-circle"></a>
+      <a href="index.html"><img src="Imagenes/SIMO.jpg" alt="logo SIMO" class="rounded-circle"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -84,25 +84,28 @@
 <footer class="bg-secondary text-white">
   <!-- <div class="container-fluid"> -->
       <nav class="row">
-                                                                                <!-- LOGO -->
-          <a href="index.html" class="col-4 text-reset text-uppercase d-flex align-items-center">
-              <img src="Imagenes/SIMO.jpg" width="100%" class="rounded-circle ml-4 w-25 p-2" alt="Logo Simo">EstiloSIMO</a>
-                                                                      <!-- Telefono y mail CONTACTO -->
-          <ul class="col-4 ">
+                                                                                          <!-- LOGO -->
+          <a href="index.html" class="col-6 col-sm-6 text-reset text-uppercase d-flex align-items-center">
+              <img src="Imagenes/SIMO.jpg" class="rounded-circle ml-4 w-25 p-2" alt="Logo Simo"></a>
+                                                              <!-- Telefono y mail CONTACTO -->
+          <ul class="contacto col-6 col-sm-6">
               <li class="font-weight-bold text-uppercase d-flex justify-content-center">Contacto</li>
-              <li class="d-flex justify-content-center datos"><p>Email:estilosimo@hotmail.com</p></li>
+              <section class=contactodatos>
+                  <li class="d-flex justify-content-center"><p>Email:estilosimo@hotmail.com</p></li>
               <li class="d-flex justify-content-center align-items-center">Telefono:+541130151510</li>
-          </ul>
-                                                                     <!-- Redes Sociales -->
-          <ul class="col-4 list-unstyled">
-              <li class="font-weight-bold text-uppercase d-flex justify-content-center align-items-center">Social Networks</li>
+                                                                        <!-- Redes Sociales -->
+              <!-- <li class="font-weight-bold text-uppercase d-flex justify-content-center align-items-center">Social Networks</li> -->
               <li class="d-flex justify-content-center">
-                  <a href="https://www.facebook.com/estilosimo-117588469648225" target="_blank" class="text-reset m-2">Facebook <i class="fab fa-facebook"></i></a>
-                  <a href="https://www.instagram.com/estilosimo/" target="_blank" class="text-reset m-2">Instagram <i class="fab fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/estilosimo-117588469648225" target="_blank" class="text-reset m-2"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/estilosimo/" target="_blank" class="text-reset m-2"><i class="fab fa-instagram"></i></a>
               </li>
-          </ul>   
+              </section>
+          </ul>  
+
+              
+          
       </nav>
-  </footer> 
+</footer>
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
           integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 

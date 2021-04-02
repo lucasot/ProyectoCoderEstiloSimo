@@ -18,9 +18,9 @@
     <link rel="shortcut icon" href="/Imagenes/favicon/favicon.ico" type="image/x-icon">
     
     <!-- -bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-     crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+            crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <title>EstiloSIMO-contactus</title>
@@ -62,11 +62,11 @@
         </nav>
                                                                                 <!-- CUESTIONARIO y FOTO SIMO -->
             <div class="d-flex">
-                <div class="w-30 h-100">
-                    <!-- IMAGEN SIMO -->
-                    <img src="imagenes/Simonaprinces.jpeg" class="" height="480px" width="auto" alt="simo">
-                </div>
-                <div class= "formulario w-100 h-100">
+                <!-- <div class="">
+                    IMAGEN SIMO 
+                    <img src="imagenes/Simonaprinces.jpeg" class="" height="486px" width="360px" alt="simo">
+                </div> -->
+                <div class= "formulario">
                     <form action="/server/" method="POST" class="formulario" >
                         <fieldset>
                         <legend class="font-weight-bold text-dark text-center text-uppercase">Dejanos tu Consulta</legend>
@@ -104,22 +104,25 @@
             <!-- <div class="container-fluid"> -->
                 <nav class="row">
                                                                                                     <!-- LOGO -->
-                    <a href="index.html" class="col-4 text-reset text-uppercase d-flex align-items-center">
-                        <img src="Imagenes/SIMO.jpg" width="100%" class="rounded-circle ml-4 w-25 p-2" alt="Logo Simo">EstiloSIMO</a>
+                    <a href="index.html" class="col-6 col-sm-6 text-reset text-uppercase d-flex align-items-center">
+                        <img src="Imagenes/SIMO.jpg" class="rounded-circle ml-4 w-25 p-2" alt="Logo Simo"></a>
                                                                         <!-- Telefono y mail CONTACTO -->
-                    <ul class="col-4 ">
+                    <ul class="contacto col-6 col-sm-6">
                         <li class="font-weight-bold text-uppercase d-flex justify-content-center">Contacto</li>
-                        <li class="d-flex justify-content-center datos"><p>Email:estilosimo@hotmail.com</p></li>
+                        <section class=contactodatos>
+                            <li class="d-flex justify-content-center"><p>Email:estilosimo@hotmail.com</p></li>
                         <li class="d-flex justify-content-center align-items-center">Telefono:+541130151510</li>
-                    </ul>
-                                                                             <!-- Redes Sociales -->
-                    <ul class="col-4 list-unstyled">
-                        <li class="font-weight-bold text-uppercase d-flex justify-content-center align-items-center">Social Networks</li>
+                                                                                 <!-- Redes Sociales -->
+                        <!-- <li class="font-weight-bold text-uppercase d-flex justify-content-center align-items-center">Social Networks</li> -->
                         <li class="d-flex justify-content-center">
-                            <a href="https://www.facebook.com/estilosimo-117588469648225" target="_blank" class="text-reset m-2">Facebook <i class="fab fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/estilosimo/" target="_blank" class="text-reset m-2">Instagram <i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/estilosimo-117588469648225" target="_blank" class="text-reset m-2"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/estilosimo/" target="_blank" class="text-reset m-2"><i class="fab fa-instagram"></i></a>
                         </li>
-                    </ul>   
+                        </section>
+                    </ul>  
+
+                        
+                    
                 </nav>
         </footer>
 
