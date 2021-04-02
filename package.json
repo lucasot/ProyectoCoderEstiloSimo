@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasot/ProyectoCoderEstiloSimo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasot/ProyectoCoderEstiloSimo/issues"
+  },
+  "homepage": "https://github.com/lucasot/ProyectoCoderEstiloSimo#readme",
   "description": ""
 }
