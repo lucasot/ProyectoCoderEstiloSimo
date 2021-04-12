@@ -1,4 +1,9 @@
 /*PRODUCTS*/ 
+@import '../base/variables';
+
 .fondocolor{
-    background-color: #f5cf9e;
+    width: 100%;
+    background-image:$fondocolores;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }

@@ -1,6 +1,9 @@
 /*ABOUT US*/
 .aboutus {
-  background-color: #f5cf9e;
+  width: 100%;
+  background-image: url(../Imagenes/fondocolores.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 /*IMAGEN SIMO */
@@ -19,9 +22,10 @@
 
 /*CONTACT US*/
 .formulario {
-  height: 486px;
   width: 100%;
-  background-color: #f5cf9e;
+  background-image: url(../Imagenes/fondocan.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .formulario input[type=text],
@@ -62,12 +66,18 @@
 
 /*GALLERY*/
 .Galeria {
-  background-color: #f5cf9e;
+  width: 100%;
+  background-image: url(../Imagenes/fondocolores.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 /*PRODUCTS*/
 .fondocolor {
-  background-color: #f5cf9e;
+  width: 100%;
+  background-image: url(../Imagenes/fondocolores.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 /*FOOTER*/

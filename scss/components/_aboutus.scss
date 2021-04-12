@@ -1,7 +1,11 @@
                                         /*ABOUT US*/ 
+ @import '../base/variables';
 
 .aboutus{
-    background-color: #f5cf9e;
+    width: 100%;
+    background-image:$fondocolores;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
                                             /*IMAGEN SIMO */
 #SobreNosotros .simonaprincess {
