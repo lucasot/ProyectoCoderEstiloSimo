@@ -10,7 +10,7 @@
   justify-content: flex-end;
   border-style: solid;
   height: 100%;
-  transition: all 2s;
+  transition: all 2.5s;
 }
 
 .simonaprincess:hover {
@@ -27,7 +27,7 @@
 .formulario input[type=text],
 .formulario input[type=email],
 .formulario input[type=tel] {
-  width: 60%;
+  width: 40%;
   border-radius: 3px;
   font-size: 14px;
   padding: 7px;
@@ -43,7 +43,7 @@
 .formulario textarea {
   resize: none;
   min-height: 100px;
-  width: 60%;
+  width: 40%;
   border-radius: 3px;
   font-size: 14px;
   padding: 7px;
