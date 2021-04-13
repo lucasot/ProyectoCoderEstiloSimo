@@ -8,16 +8,30 @@
 
 /*IMAGEN SIMO */
 #SobreNosotros .simonaprincess {
-  width: 20%;
+  width: 100px;
   display: flex;
-  justify-content: flex-end;
-  border-style: solid;
-  height: 100%;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 45px;
+  height: 70%;
   transition: all 2.5s;
 }
 
 .simonaprincess:hover {
   transform: scale(0.8);
+}
+
+#SobreNosotros .parrafo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  flex-direction: row;
+  height: auto;
+  line-height: 30px;
+  color: black;
 }
 
 /*CONTACT US*/
