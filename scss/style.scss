@@ -1,4 +1,42 @@
 @import 'base/import';
+/* GENERAL */
+
 body{
     overflow-x: hidden;
+}
+
+footer{
+    height: 300px;
+    position: static;
+    bottom: 0px;
+    width: 100%;
+}
+
+header{
+    height: auto;
+}
+
+/* MOVILE STYLES */
+
+@media only screen and (max-width: 400px) {
+    .bienvenidos{
+        background-image: $fondobienvenidos;
+    }
+}
+
+/* TABLET STYLES */
+
+@media only screen and (min-width:401px) and (max-width: 960px) {
+    .bienvenidos{
+        background-image: $fondobienvenidos;
+    }
+}
+
+/* DESKTOP STYLES */
+
+@media only screen and (min-width: 961px) {
+    .bienvenidos{
+        background-image: $fondobienvenidos;
+    
+}
 }
